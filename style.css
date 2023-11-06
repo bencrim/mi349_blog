@@ -1,0 +1,152 @@
+body {
+    margin: 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+#main_title {
+    margin: 20px;
+}
+
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 10px;
+    margin-bottom: 0;
+    border-bottom: 5px solid black;
+}
+
+ol li {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+}
+
+#menu {
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+.blog {
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bio {
+    width: 1230px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rating {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.rating p {
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.rating ul {
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 10px;
+    list-style: none;
+}
+
+.rating li {
+    padding: 2px;
+    padding-left: 4px;
+}
+
+strong {
+    font-size: 3.2em;
+    color: rgb(240, 162, 17);
+}
+
+colored {
+    color: rgb(240, 162, 17);
+}
+
+.rating ul[title]::before {
+    content: attr(title);
+    display: block;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#contact {
+    float: left;
+    width: 200px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+    max-width: 1230px;
+}
+
+img {
+    margin: 10px 0 0 10px;
+}
+
+table {
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+.entry_title {
+    margin-left: 0;
+    font-size: 3.5em;
+}
+
+h2 {
+    color: rgb(240, 162, 17);
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#submit {
+    position: absolute;
+    left: 50%;
+}
